@@ -40,7 +40,7 @@
     <link href="https://longergre.github.io/2022/02/07/%E6%B5%8B%E8%AF%95%EF%BC%9A%E5%BE%AE%E5%B0%8F%E8%BD%AC%E5%8A%A8%E4%B8%8B%E7%9A%84%E5%8F%98%E5%8C%96%E7%8E%87%E5%9C%A8%E7%9B%B4%E8%A7%92%E5%9D%90%E6%A0%87%E7%B3%BB%E4%B8%AD%E7%9A%84%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
     <id>https://longergre.github.io/2022/02/07/%E6%B5%8B%E8%AF%95%EF%BC%9A%E5%BE%AE%E5%B0%8F%E8%BD%AC%E5%8A%A8%E4%B8%8B%E7%9A%84%E5%8F%98%E5%8C%96%E7%8E%87%E5%9C%A8%E7%9B%B4%E8%A7%92%E5%9D%90%E6%A0%87%E7%B3%BB%E4%B8%AD%E7%9A%84%E8%A1%A8%E8%BE%BE%E5%BC%8F/</id>
     <published>2022-02-07T10:07:44.000Z</published>
-    <updated>2022-02-07T14:13:57.135Z</updated>
+    <updated>2022-02-07T19:13:27.796Z</updated>
     
     <content type="html"><![CDATA[<p>$\because x=r\cos\phi,\quad y=r\sin\phi$<br>$ \therefore x\frac{\partial S}{\partial y}-y\frac{\partial S}{\partial x}$<br> $=r\cos{\phi}\frac{\partial S}{\partial r\cdot\sin{\phi}+r\cos{\phi}\cdot\partial\phi}-r\sin{\phi}\frac{\partial S}{\partial r\cdot\cos{\phi}-r\sin{\phi}\cdot\partial\phi}$</p><p>$=\frac{\partial S}{\dfrac{\partial r}{r}\tan{\phi}+\partial\phi}-\frac{\partial S}{\dfrac{\partial r}{r}\cot{\phi}-\partial\phi}$</p><p>$=\frac{\Big(\dfrac{\partial r}{r}\cot{\phi}-\partial\phi+\dfrac{\partial r}{r}\tan{\phi}-\partial\phi\Big)\partial S}{\Big(\dfrac{\partial r}{r}\tan{\phi}+\partial\phi\Big)\Big(\dfrac{\partial r}{r}\cot{\phi}-\partial\phi\Big)}$</p><span id="more"></span><p>$=\frac{\Big[\dfrac{\partial r}{r}(\cot\phi-\tan\phi)-2\partial\phi\Big]\partial S}{\dfrac{(\partial r)^2}{r^2}-(\partial\phi)^2+\dfrac{\partial r}{r}(\cot\phi-\tan\phi)\partial\phi}$<br>分子分母同乘$\frac{r}{\partial r}$<br>$=\frac{\Big[(\cot\phi-\tan\phi)-2r\frac{\partial\phi}{\partial r}\Big]\partial S}{\frac{\partial r}{r}-\frac{r(\partial\phi)^2}{\partial r}+(\cot\phi-\tan\phi)\partial\phi}$<br>再同除$\partial\phi$<br>$=\frac{\Big[(\cot\phi-\tan\phi)-2r\frac{\partial\phi}{\partial r}\Big]\frac{\partial S}{\partial\phi}}{\frac{1}{r}\frac{\partial r}{\partial\phi}-r\frac{\partial\phi}{\partial r}+(\cot\phi-\tan\phi)}$<br>因为$\partial r$是长度的微小变化，$\partial\phi$是角度的微小变化，它俩没啥关系<br>所以$\frac{\partial r}{\partial\phi}=0,\quad\frac{\partial\phi}{\partial r}=0$<br>于是<br>$\frac{\Big[(\cot\phi-\tan\phi)-2r\frac{\partial\phi}{\partial r}\Big]\frac{\partial S}{\partial\phi}}{\frac{1}{r}\frac{\partial r}{\partial\phi}-r\frac{\partial\phi}{\partial r}+(\cot\phi-\tan\phi)}$</p><p>$=\frac{(\cot\phi-\tan\phi)\frac{\partial S}{\partial\phi}}{(\cot\phi-\tan\phi)}$</p><p>$=\frac{\partial S}{\partial\phi}$</p>]]></content>
     
@@ -51,6 +51,8 @@
     
     
     
+    
+    <category term="数学" scheme="https://longergre.github.io/tags/%E6%95%B0%E5%AD%A6/"/>
     
   </entry>
   
