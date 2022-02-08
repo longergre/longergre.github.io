@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 只羡鸳鸯不羡仙
-subtitle: ''
-description: ''
-keywords:
+title: '万俟闾'
+subtitle: 'HEXO博客'
+description: '万俟闾的Hexo博客'
+keywords: 万俟闾, 博客, Hexo
 author: 万俟闾
-language: en
+language: zh-CN
 timezone: ''
 
 # URL
@@ -97,14 +97,24 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yilia-plus
+theme: ayer
 plugins:
   hexo-generator-feed
+# hexo-generator-searchdb
+search:
+  path: search.xml
+  field: post
+  format: html
 #Feed atom
 feed:
   type: atom
   path: atom.xml
   limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: " "
+  order_by: -date
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
