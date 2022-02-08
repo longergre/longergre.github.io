@@ -42,12 +42,14 @@
     <link href="https://longergre.github.io/2022/02/07/%E6%B5%8B%E8%AF%95%EF%BC%9A%E5%BE%AE%E5%B0%8F%E8%BD%AC%E5%8A%A8%E4%B8%8B%E7%9A%84%E5%8F%98%E5%8C%96%E7%8E%87%E5%9C%A8%E7%9B%B4%E8%A7%92%E5%9D%90%E6%A0%87%E7%B3%BB%E4%B8%AD%E7%9A%84%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
     <id>https://longergre.github.io/2022/02/07/%E6%B5%8B%E8%AF%95%EF%BC%9A%E5%BE%AE%E5%B0%8F%E8%BD%AC%E5%8A%A8%E4%B8%8B%E7%9A%84%E5%8F%98%E5%8C%96%E7%8E%87%E5%9C%A8%E7%9B%B4%E8%A7%92%E5%9D%90%E6%A0%87%E7%B3%BB%E4%B8%AD%E7%9A%84%E8%A1%A8%E8%BE%BE%E5%BC%8F/</id>
     <published>2022-02-07T10:07:44.000Z</published>
-    <updated>2022-02-07T19:13:27.796Z</updated>
+    <updated>2022-02-08T20:12:59.812Z</updated>
     
     
-    <summary type="html">&lt;p&gt;$\because x=r\cos\phi,\quad y=r\sin\phi$&lt;br&gt;$ \therefore x\frac{\partial S}{\partial y}-y\frac{\partial S}{\partial x}$&lt;br&gt; $=r\cos{\phi}\frac{\partial S}{\partial r\cdot\sin{\phi}+r\cos{\phi}\cdot\partial\phi}-r\sin{\phi}\frac{\partial S}{\partial r\cdot\cos{\phi}-r\sin{\phi}\cdot\partial\phi}$&lt;/p&gt;
-&lt;p&gt;$=\frac{\partial S}{\dfrac{\partial r}{r}\tan{\phi}+\partial\phi}-\frac{\partial S}{\dfrac{\partial r}{r}\cot{\phi}-\partial\phi}$&lt;/p&gt;
-&lt;p&gt;$=\frac{\Big(\dfrac{\partial r}{r}\cot{\phi}-\partial\phi+\dfrac{\partial r}{r}\tan{\phi}-\partial\phi\Big)\partial S}{\Big(\dfrac{\partial r}{r}\tan{\phi}+\partial\phi\Big)\Big(\dfrac{\partial r}{r}\cot{\phi}-\partial\phi\Big)}$&lt;/p&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;证明：-dfrac-partial-S-partial-phi-x-dfrac-partial-S-partial-y-y-dfrac-partial-S-partial-x&quot;&gt;&lt;a href=&quot;#证明：-dfrac-partial-S-partial-phi-x-dfrac-partial-S-partial-y-y-dfrac-partial-S-partial-x&quot; class=&quot;headerlink&quot; title=&quot;证明：$\dfrac{\partial S}{\partial\phi}=x\dfrac{\partial S}{\partial y}-y\dfrac{\partial S}{\partial x}$&quot;&gt;&lt;/a&gt;证明：$\dfrac{\partial S}{\partial\phi}=x\dfrac{\partial S}{\partial y}-y\dfrac{\partial S}{\partial x}$&lt;/h1&gt;&lt;p&gt;$\because x=r\cos\phi,\quad y=r\sin\phi$&lt;/p&gt;
+&lt;p&gt;$ \therefore x\dfrac{\partial S}{\partial y}-y\dfrac{\partial S}{\partial x}$&lt;/p&gt;
+&lt;p&gt;$=r\cos{\phi}\dfrac{\partial S}{\partial r\cdot\sin{\phi}+r\cos{\phi}\cdot\partial\phi}-r\sin{\phi}\dfrac{\partial S}{\partial r\cdot\cos{\phi}-r\sin{\phi}\cdot\partial\phi}$&lt;/p&gt;
+&lt;p&gt;$=\dfrac{\partial S}{\dfrac{\partial r}{r}\tan{\phi}+\partial\phi}-\dfrac{\partial S}{\dfrac{\partial r}{r}\cot{\phi}-\partial\phi}$&lt;/p&gt;
+&lt;p&gt;$=\dfrac{\Big(\dfrac{\partial r}{r}\cot{\phi}-\partial\phi+\dfrac{\partial r}{r}\tan{\phi}-\partial\phi\Big)\partial S}{\Big(\dfrac{\partial r}{r}\tan{\phi}+\partial\phi\Big)\Big(\dfrac{\partial r}{r}\cot{\phi}-\partial\phi\Big)}$&lt;/p&gt;</summary>
     
     
     
