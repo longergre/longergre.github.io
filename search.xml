@@ -15,9 +15,19 @@
 ]]></content>
   </entry>
   <entry>
+    <title>五饼护食记</title>
+    <url>/2024/01/28/%E4%BA%94%E9%A5%BC%E6%8A%A4%E9%A3%9F%E8%AE%B0/</url>
+    <content><![CDATA[<div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"autoplay":true,"theme":"#FADFA3","loop":true,"video":{"url":"/2024/01/28/五饼护食记/1.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
+]]></content>
+      <tags>
+        <tag>视频</tag>
+        <tag>宠物</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>备忘：dplayer发布视频测试及操作步骤</title>
     <url>/2024/01/28/%E6%B5%8B%E8%AF%95dplayer%E5%8F%91%E5%B8%83%E8%A7%86%E9%A2%91/</url>
-    <content><![CDATA[<div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"autoplay":true,"theme":"#FADFA3","loop":true,"video":{"url":"/2024/01/28/测试dplayer发布视频/1.mp4","pic":"1.jpg"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
+    <content><![CDATA[<div id="dplayer1" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer1"),"autoplay":true,"theme":"#FADFA3","loop":true,"video":{"url":"/2024/01/28/测试dplayer发布视频/1.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
 <h1 id="一、博客中如果要插入本地视频，需要先安装hexo-tag-dplayer，在cmd-终端输入"><a href="#一、博客中如果要插入本地视频，需要先安装hexo-tag-dplayer，在cmd-终端输入" class="headerlink" title="一、博客中如果要插入本地视频，需要先安装hexo-tag-dplayer，在cmd/终端输入"></a>一、博客中如果要插入本地视频，需要先安装hexo-tag-dplayer，在cmd/终端输入</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-tag-dplayer --save</span><br></pre></td></tr></table></figure>
 <p>Mac端可能需要在命令前加“sodu”，以管理员身份运行，回车之后按提示输入登录密码，再回车。</p>
 <p>成功安装后在 博客根目录/node_modules 中会出现dplayer 文件夹。</p>
