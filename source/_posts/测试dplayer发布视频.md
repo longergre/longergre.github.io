@@ -7,7 +7,7 @@ tags:
 categories: 备忘
 ---
 
-{% dplayer "url=1.mp4" "" "loop=yes" "theme=#FADFA3" "autoplay=true" "token=tokendemo" %}
+{% dplayer "url=1.mp4" "" "loop=yes" "theme=#FADFA3" "autoplay=true" "width=35%" "token=tokendemo" %}
 
 # 一、博客中如果要插入本地视频，需要先安装hexo-tag-dplayer，在cmd/终端输入
 
@@ -18,6 +18,8 @@ npm install hexo-tag-dplayer --save
 Mac端可能需要在命令前加“sodu”，以管理员身份运行，回车之后按提示输入登录密码，再回车。
 
 成功安装后在 博客根目录/node_modules 中会出现dplayer 文件夹。
+
+<!--more-->
 
 # 二、确保hexo的配置文件_config.yml里
 

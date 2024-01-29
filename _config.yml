@@ -120,5 +120,5 @@ feed:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo: https://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@github.com/longergre/longergre.github.io.git
+  repo: https://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@github.com/longergre/longergre.github.io.git
   branch: main

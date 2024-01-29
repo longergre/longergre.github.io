@@ -4,7 +4,7 @@ date: 2024-01-28 21:39:43
 tags:
     - 备忘
     - Hexo
-catigories: 备忘
+categories: 备忘
 ---
 
 # 输入密码报错，应使用Personal access tokens
@@ -13,19 +13,21 @@ catigories: 备忘
 
 1. 登录GitHub，点击网页右上角的头像，再点击Settings
    
-   ![](https://cdn.jsdelivr.net/gh/longergre/picgo/img/屏幕快照 2024-01-28 下午9.51.07.png)
+   <img src="https://cdn.jsdelivr.net/gh/longergre/picgo/img/屏幕快照 2024-01-28 下午9.51.07.png" style="zoom:33%;" />
 
+   <!--more-->
+   
 2. 点击网页左侧底部的Developer settings
    
-   ![](https://cdn.jsdelivr.net/gh/longergre/picgo/img/屏幕快照 2024-01-28 下午9.54.30.png)
+   <img src="https://cdn.jsdelivr.net/gh/longergre/picgo/img/屏幕快照 2024-01-28 下午9.54.30.png" style="zoom: 33%;" />
 
 3. 点击Personal access tokens
    
-   ![](https://cdn.jsdelivr.net/gh/longergre/picgo/img/屏幕快照 2024-01-28 下午9.55.47.png)
+   <img src="https://cdn.jsdelivr.net/gh/longergre/picgo/img/屏幕快照 2024-01-28 下午9.55.47.png" style="zoom:33%;" />
 
 4. 点击Tokens（classic）
    
-   ![](https://cdn.jsdelivr.net/gh/longergre/picgo/img/屏幕快照 2024-01-28 下午9.56.41.png)
+   <img src="https://cdn.jsdelivr.net/gh/longergre/picgo/img/屏幕快照 2024-01-28 下午9.56.41.png" style="zoom:33%;" />
 
 5. 点击Generate new token
    
