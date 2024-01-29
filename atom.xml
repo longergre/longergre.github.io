@@ -6,7 +6,7 @@
   <link href="https://longergre.github.io/atom.xml" rel="self"/>
   
   <link href="https://longergre.github.io/"/>
-  <updated>2024-01-28T16:11:51.899Z</updated>
+  <updated>2024-01-29T18:14:43.821Z</updated>
   <id>https://longergre.github.io/</id>
   
   <author>
@@ -17,22 +17,75 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>3年延时记录45种花开瞬间</title>
+    <link href="https://longergre.github.io/2024/01/30/3%E5%B9%B4%E5%BB%B6%E6%97%B6%E8%AE%B0%E5%BD%9545%E7%A7%8D%E8%8A%B1%E5%BC%80%E7%9E%AC%E9%97%B4/"/>
+    <id>https://longergre.github.io/2024/01/30/3%E5%B9%B4%E5%BB%B6%E6%97%B6%E8%AE%B0%E5%BD%9545%E7%A7%8D%E8%8A%B1%E5%BC%80%E7%9E%AC%E9%97%B4/</id>
+    <published>2024-01-29T18:12:58.000Z</published>
+    <updated>2024-01-29T18:14:43.821Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/longergre/picgo/img/1706551237808.gif&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="gif" scheme="https://longergre.github.io/categories/gif/"/>
+    
+    
+    <category term="gif" scheme="https://longergre.github.io/tags/gif/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>备忘：有用的git命令</title>
+    <link href="https://longergre.github.io/2024/01/29/%E5%A4%87%E5%BF%98%EF%BC%9A%E6%9C%89%E7%94%A8%E7%9A%84git%E5%91%BD%E4%BB%A4/"/>
+    <id>https://longergre.github.io/2024/01/29/%E5%A4%87%E5%BF%98%EF%BC%9A%E6%9C%89%E7%94%A8%E7%9A%84git%E5%91%BD%E4%BB%A4/</id>
+    <published>2024-01-29T10:10:02.000Z</published>
+    <updated>2024-01-29T16:01:13.517Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;git基本操作&quot;&gt;&lt;a href=&quot;#git基本操作&quot; class=&quot;headerlink&quot; title=&quot;git基本操作&quot;&gt;&lt;/a&gt;git基本操作&lt;/h1&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;git clone 【仓库地址】&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;这需要cd到想要保存仓库文件夹的路径再执行，否则需要指定路径。执行之后会在相应路径下建立文件夹，其名称与仓库名称相同，其内容与仓库默认分支相同。&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;git add .&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;添加当前目录下的所有文件到暂存区。&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;git commit -m &amp;quot;【这里写备注信息，可以留空】&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;提交暂存区到本地仓库中。&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;git push origin 【分支名】&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;推送文件到origin主机的【分支名】分支。其中“origin”是远程主机名，远程主机一般都叫这个名，很少有人去改。&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;git pull origin 【分支名】&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;从远程获取代码并合并本地的版本。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="备忘" scheme="https://longergre.github.io/categories/%E5%A4%87%E5%BF%98/"/>
+    
+    
+    <category term="备忘" scheme="https://longergre.github.io/tags/%E5%A4%87%E5%BF%98/"/>
+    
+    <category term="git" scheme="https://longergre.github.io/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
     <title>备忘：hexo d远程连接GitHub报错修复</title>
     <link href="https://longergre.github.io/2024/01/28/%E5%A4%87%E5%BF%98%EF%BC%9Ahexo-d%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5GitHub%E6%8A%A5%E9%94%99%E4%BF%AE%E5%A4%8D/"/>
     <id>https://longergre.github.io/2024/01/28/%E5%A4%87%E5%BF%98%EF%BC%9Ahexo-d%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5GitHub%E6%8A%A5%E9%94%99%E4%BF%AE%E5%A4%8D/</id>
     <published>2024-01-28T13:39:43.000Z</published>
-    <updated>2024-01-28T16:11:51.899Z</updated>
+    <updated>2024-01-29T16:55:13.643Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;输入密码报错，应使用Personal-access-tokens&quot;&gt;&lt;a href=&quot;#输入密码报错，应使用Personal-access-tokens&quot; class=&quot;headerlink&quot; title=&quot;输入密码报错，应使用Personal access</summary>
-        
-      
+    <summary type="html">&lt;h1 id=&quot;输入密码报错，应使用Personal-access-tokens&quot;&gt;&lt;a href=&quot;#输入密码报错，应使用Personal-access-tokens&quot; class=&quot;headerlink&quot; title=&quot;输入密码报错，应使用Personal access tokens&quot;&gt;&lt;/a&gt;输入密码报错，应使用Personal access tokens&lt;/h1&gt;&lt;h2 id=&quot;一、生成token&quot;&gt;&lt;a href=&quot;#一、生成token&quot; class=&quot;headerlink&quot; title=&quot;一、生成token&quot;&gt;&lt;/a&gt;一、生成token&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;登录GitHub，点击网页右上角的头像，再点击Settings&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/longergre/picgo/img/屏幕快照 2024-01-28 下午9.51.07.png#pic_left =500x&quot; alt=&quot;&quot;&gt;&lt;/p&gt;</summary>
     
     
+    
+    <category term="备忘" scheme="https://longergre.github.io/categories/%E5%A4%87%E5%BF%98/"/>
     
     
     <category term="备忘" scheme="https://longergre.github.io/tags/%E5%A4%87%E5%BF%98/"/>
@@ -46,14 +99,14 @@
     <link href="https://longergre.github.io/2024/01/28/%E4%BA%94%E9%A5%BC%E6%8A%A4%E9%A3%9F%E8%AE%B0/"/>
     <id>https://longergre.github.io/2024/01/28/%E4%BA%94%E9%A5%BC%E6%8A%A4%E9%A3%9F%E8%AE%B0/</id>
     <published>2024-01-28T08:39:11.000Z</published>
-    <updated>2024-01-28T08:42:40.865Z</updated>
+    <updated>2024-01-29T16:01:13.514Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;div id=&quot;dplayer0&quot; class=&quot;dplayer hexo-tag-dplayer-mark&quot; style=&quot;margin-bottom: 20px;&quot;&gt;&lt;/div&gt;&lt;script&gt;(function(){var player = new</summary>
+    <summary type="html">&lt;div id=&quot;dplayer0&quot; class=&quot;dplayer hexo-tag-dplayer-mark&quot; style=&quot;margin-bottom: 20px; width:35%;&quot;&gt;&lt;/div&gt;&lt;script&gt;(function(){var player = new</summary>
         
       
     
@@ -71,16 +124,13 @@
     <link href="https://longergre.github.io/2024/01/28/%E6%B5%8B%E8%AF%95dplayer%E5%8F%91%E5%B8%83%E8%A7%86%E9%A2%91/"/>
     <id>https://longergre.github.io/2024/01/28/%E6%B5%8B%E8%AF%95dplayer%E5%8F%91%E5%B8%83%E8%A7%86%E9%A2%91/</id>
     <published>2024-01-27T16:57:22.000Z</published>
-    <updated>2024-01-28T08:33:59.728Z</updated>
+    <updated>2024-01-29T16:01:13.518Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;div id=&quot;dplayer1&quot; class=&quot;dplayer hexo-tag-dplayer-mark&quot; style=&quot;margin-bottom: 20px;&quot;&gt;&lt;/div&gt;&lt;script&gt;(function(){var player = new</summary>
-        
-      
+    <summary type="html">&lt;div id=&quot;dplayer1&quot; class=&quot;dplayer hexo-tag-dplayer-mark&quot; style=&quot;margin-bottom: 20px; width:35%;&quot;&gt;&lt;/div&gt;&lt;script&gt;(function(){var player = new DPlayer({&quot;container&quot;:document.getElementById(&quot;dplayer1&quot;),&quot;autoplay&quot;:true,&quot;theme&quot;:&quot;#FADFA3&quot;,&quot;loop&quot;:true,&quot;video&quot;:{&quot;url&quot;:&quot;/2024/01/28/测试dplayer发布视频/1.mp4&quot;}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()&lt;/script&gt;
+&lt;h1 id=&quot;一、博客中如果要插入本地视频，需要先安装hexo-tag-dplayer，在cmd-终端输入&quot;&gt;&lt;a href=&quot;#一、博客中如果要插入本地视频，需要先安装hexo-tag-dplayer，在cmd-终端输入&quot; class=&quot;headerlink&quot; title=&quot;一、博客中如果要插入本地视频，需要先安装hexo-tag-dplayer，在cmd/终端输入&quot;&gt;&lt;/a&gt;一、博客中如果要插入本地视频，需要先安装hexo-tag-dplayer，在cmd/终端输入&lt;/h1&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm install hexo-tag-dplayer --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Mac端可能需要在命令前加“sodu”，以管理员身份运行，回车之后按提示输入登录密码，再回车。&lt;/p&gt;
+&lt;p&gt;成功安装后在 博客根目录/node_modules 中会出现dplayer 文件夹。&lt;/p&gt;</summary>
     
     
     
@@ -122,11 +172,11 @@
     <updated>2022-02-08T20:12:59.812Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;证明：-dfrac-partial-S-partial-phi-x-dfrac-partial-S-partial-y-y-dfrac-partial-S-partial-x&quot;&gt;&lt;a href=&quot;#证明：-dfrac-partial-S-partial-phi-x-dfrac-partial-S-partial-y-y-dfrac-partial-S-partial-x&quot; class=&quot;headerlink&quot; title=&quot;证明：$\dfrac{\partial S}{\partial\phi}=x\dfrac{\partial S}{\partial y}-y\dfrac{\partial S}{\partial x}$&quot;&gt;&lt;/a&gt;证明：$\dfrac{\partial S}{\partial\phi}=x\dfrac{\partial S}{\partial y}-y\dfrac{\partial S}{\partial x}$&lt;/h1&gt;&lt;p&gt;$\because x=r\cos\phi,\quad y=r\sin\phi$&lt;/p&gt;
-&lt;p&gt;$ \therefore x\dfrac{\partial S}{\partial y}-y\dfrac{\partial S}{\partial x}$&lt;/p&gt;
-&lt;p&gt;$=r\cos{\phi}\dfrac{\partial S}{\partial r\cdot\sin{\phi}+r\cos{\phi}\cdot\partial\phi}-r\sin{\phi}\dfrac{\partial S}{\partial r\cdot\cos{\phi}-r\sin{\phi}\cdot\partial\phi}$&lt;/p&gt;
-&lt;p&gt;$=\dfrac{\partial S}{\dfrac{\partial r}{r}\tan{\phi}+\partial\phi}-\dfrac{\partial S}{\dfrac{\partial r}{r}\cot{\phi}-\partial\phi}$&lt;/p&gt;
-&lt;p&gt;$=\dfrac{\Big(\dfrac{\partial r}{r}\cot{\phi}-\partial\phi+\dfrac{\partial r}{r}\tan{\phi}-\partial\phi\Big)\partial S}{\Big(\dfrac{\partial r}{r}\tan{\phi}+\partial\phi\Big)\Big(\dfrac{\partial r}{r}\cot{\phi}-\partial\phi\Big)}$&lt;/p&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;证明：-dfrac-partial-S-partial-phi-x-dfrac-partial-S-partial-y-y-dfrac-partial-S-partial-x&quot;&gt;&lt;a href=&quot;#证明：-dfrac-partial-S-partial-phi-x-dfrac-partial-S-partial-y-y-dfrac-partial-S-partial-x&quot; class=&quot;headerlink&quot; title=&quot;证明：$&#92;dfrac{&#92;partial S}{&#92;partial&#92;phi}=x&#92;dfrac{&#92;partial S}{&#92;partial y}-y&#92;dfrac{&#92;partial S}{&#92;partial x}$&quot;&gt;&lt;/a&gt;证明：$&#92;dfrac{&#92;partial S}{&#92;partial&#92;phi}=x&#92;dfrac{&#92;partial S}{&#92;partial y}-y&#92;dfrac{&#92;partial S}{&#92;partial x}$&lt;/h1&gt;&lt;p&gt;$&#92;because x=r&#92;cos&#92;phi,&#92;quad y=r&#92;sin&#92;phi$&lt;/p&gt;
+&lt;p&gt;$ &#92;therefore x&#92;dfrac{&#92;partial S}{&#92;partial y}-y&#92;dfrac{&#92;partial S}{&#92;partial x}$&lt;/p&gt;
+&lt;p&gt;$=r&#92;cos{&#92;phi}&#92;dfrac{&#92;partial S}{&#92;partial r&#92;cdot&#92;sin{&#92;phi}+r&#92;cos{&#92;phi}&#92;cdot&#92;partial&#92;phi}-r&#92;sin{&#92;phi}&#92;dfrac{&#92;partial S}{&#92;partial r&#92;cdot&#92;cos{&#92;phi}-r&#92;sin{&#92;phi}&#92;cdot&#92;partial&#92;phi}$&lt;/p&gt;
+&lt;p&gt;$=&#92;dfrac{&#92;partial S}{&#92;dfrac{&#92;partial r}{r}&#92;tan{&#92;phi}+&#92;partial&#92;phi}-&#92;dfrac{&#92;partial S}{&#92;dfrac{&#92;partial r}{r}&#92;cot{&#92;phi}-&#92;partial&#92;phi}$&lt;/p&gt;
+&lt;p&gt;$=&#92;dfrac{&#92;Big(&#92;dfrac{&#92;partial r}{r}&#92;cot{&#92;phi}-&#92;partial&#92;phi+&#92;dfrac{&#92;partial r}{r}&#92;tan{&#92;phi}-&#92;partial&#92;phi&#92;Big)&#92;partial S}{&#92;Big(&#92;dfrac{&#92;partial r}{r}&#92;tan{&#92;phi}+&#92;partial&#92;phi&#92;Big)&#92;Big(&#92;dfrac{&#92;partial r}{r}&#92;cot{&#92;phi}-&#92;partial&#92;phi&#92;Big)}$&lt;/p&gt;</summary>
     
     
     

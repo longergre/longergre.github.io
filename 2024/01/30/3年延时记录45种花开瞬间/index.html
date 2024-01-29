@@ -15,7 +15,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title>备忘：dplayer发布视频测试及操作步骤 |  万俟闾</title>
+      <title>3年延时记录45种花开瞬间 |  万俟闾</title>
   <meta name="generator" content="hexo-theme-ayer">
       
       <link rel="shortcut icon" href="/favicon.ico" />
@@ -47,7 +47,7 @@
         }
       </style>
     <link rel="alternate" href="/atom.xml" title="万俟闾" type="application/atom+xml">
-<script src="/assets/js/DPlayer.min.js"></script></head>
+</head>
   </html>
 </html>
 
@@ -62,7 +62,7 @@
     <main class="content on">
       <section class="outer">
   <article
-  id="post-测试dplayer发布视频"
+  id="post-3年延时记录45种花开瞬间"
   class="article article-type-post"
   itemscope
   itemprop="blogPost"
@@ -73,7 +73,7 @@
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  备忘：dplayer发布视频测试及操作步骤
+  3年延时记录45种花开瞬间
 </h1>
  
 
@@ -81,11 +81,11 @@
     </header>
      
     <div class="article-meta">
-      <a href="/2024/01/28/%E6%B5%8B%E8%AF%95dplayer%E5%8F%91%E5%B8%83%E8%A7%86%E9%A2%91/" class="article-date">
-  <time datetime="2024-01-27T16:57:22.000Z" itemprop="datePublished">2024-01-28</time>
+      <a href="/2024/01/30/3%E5%B9%B4%E5%BB%B6%E6%97%B6%E8%AE%B0%E5%BD%9545%E7%A7%8D%E8%8A%B1%E5%BC%80%E7%9E%AC%E9%97%B4/" class="article-date">
+  <time datetime="2024-01-29T18:12:58.000Z" itemprop="datePublished">2024-01-30</time>
 </a> 
   <div class="article-category">
-    <a class="article-category-link" href="/categories/%E5%A4%87%E5%BF%98/">备忘</a>
+    <a class="article-category-link" href="/categories/gif/">gif</a>
   </div>
   
 <div class="word_count">
@@ -93,7 +93,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">380</span>
+            <span class="post-count">0</span>
         </span>
     </span>
 
@@ -109,26 +109,13 @@
  
     </div>
       
-    <div class="tocbot"></div>
-
 
 
 
   
     <div class="article-entry" itemprop="articleBody">
        
-  <div id="dplayer1" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px; width:35%;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer1"),"autoplay":true,"theme":"#FADFA3","loop":true,"video":{"url":"/2024/01/28/测试dplayer发布视频/1.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
-<h1 id="一、博客中如果要插入本地视频，需要先安装hexo-tag-dplayer，在cmd-终端输入"><a href="#一、博客中如果要插入本地视频，需要先安装hexo-tag-dplayer，在cmd-终端输入" class="headerlink" title="一、博客中如果要插入本地视频，需要先安装hexo-tag-dplayer，在cmd/终端输入"></a>一、博客中如果要插入本地视频，需要先安装hexo-tag-dplayer，在cmd/终端输入</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-tag-dplayer --save</span><br></pre></td></tr></table></figure>
-<p>Mac端可能需要在命令前加“sodu”，以管理员身份运行，回车之后按提示输入登录密码，再回车。</p>
-<p>成功安装后在 博客根目录/node_modules 中会出现dplayer 文件夹。</p>
-<span id="more"></span>
-<h1 id="二、确保hexo的配置文件-config-yml里"><a href="#二、确保hexo的配置文件-config-yml里" class="headerlink" title="二、确保hexo的配置文件_config.yml里"></a>二、确保hexo的配置文件_config.yml里</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">post_asset_folder: true</span><br></pre></td></tr></table></figure>
-<p>这个设置可以在hexo new ‘’新的文章”时在 博客根目录/source/_posts 里面生成同名文件夹，用来存放本地视频文件以及视频封面图片。</p>
-<h1 id="三、把视频文件和作为视频封面的图片文件放到同名文件夹里，然后在文章插入以下语句"><a href="#三、把视频文件和作为视频封面的图片文件放到同名文件夹里，然后在文章插入以下语句" class="headerlink" title="三、把视频文件和作为视频封面的图片文件放到同名文件夹里，然后在文章插入以下语句"></a>三、把视频文件和作为视频封面的图片文件放到同名文件夹里，然后在文章插入以下语句</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% dplayer &quot;url=1.mp4&quot;  &quot;pic=1.png&quot; &quot;loop=yes&quot; &quot;theme=#FADFA3&quot; &quot;autoplay=false&quot; &quot;token=tokendemo&quot; %&#125;</span><br></pre></td></tr></table></figure>
-<p>“url=本地视频文件名”空格“pic=封面图片文件名”，图片可以留空。注意单个文件大小不能超过100m，否则不能上传至GitHub。</p>
-<h1 id="插入本地音频操作类似，需要先安装hexo-tag-aplayer，执行命令"><a href="#插入本地音频操作类似，需要先安装hexo-tag-aplayer，执行命令" class="headerlink" title="插入本地音频操作类似，需要先安装hexo-tag-aplayer，执行命令"></a>插入本地音频操作类似，需要先安装hexo-tag-aplayer，执行命令</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-tag-aplayer</span><br></pre></td></tr></table></figure>
-<p>把音频文件放到同名文件夹里，然后在文章插入以下语句</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% aplayer &quot;No_Time_for_Caution&quot; &quot;Hans_Zimmer&quot; &quot;No_Time_for_Caution-Hans_Zimmer-24026258.mp3&quot; &quot;https://img4.kuwo.cn/star/albumcover/300/50/69/4184500136.jpg&quot; %&#125;</span><br></pre></td></tr></table></figure>
+  <p><img src="https://cdn.jsdelivr.net/gh/longergre/picgo/img/1706551237808.gif" alt=""></p>
  
       <!-- reward -->
       
@@ -181,12 +168,12 @@
     <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://longergre.github.io/2024/01/28/%E6%B5%8B%E8%AF%95dplayer%E5%8F%91%E5%B8%83%E8%A7%86%E9%A2%91/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://longergre.github.io/2024/01/30/3%E5%B9%B4%E5%BB%B6%E6%97%B6%E8%AE%B0%E5%BD%9545%E7%A7%8D%E8%8A%B1%E5%BC%80%E7%9E%AC%E9%97%B4/" alt="微信分享二维码">
     </div>
 </div>
 
 <div id="share-mask"></div>  
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%A4%87%E5%BF%98/" rel="tag">备忘</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%A7%86%E9%A2%91/" rel="tag">视频</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/gif/" rel="tag">gif</a></li></ul>
 
     </footer>
   </div>
@@ -194,19 +181,10 @@
    
   <nav class="article-nav">
     
-      <a href="/2024/01/28/%E4%BA%94%E9%A5%BC%E6%8A%A4%E9%A3%9F%E8%AE%B0/" class="article-nav-link">
-        <strong class="article-nav-caption">上一篇</strong>
-        <div class="article-nav-title">
-          
-            五饼护食记
-          
-        </div>
-      </a>
     
-    
-      <a href="/2022/02/07/%E6%B5%8B%E8%AF%95%EF%BC%9A%E6%88%91%E7%9A%84%E7%8C%AB%E5%92%8C%E6%88%91%E7%9A%84%E7%88%B1%E6%83%85/" class="article-nav-link">
+      <a href="/2024/01/29/%E5%A4%87%E5%BF%98%EF%BC%9A%E6%9C%89%E7%94%A8%E7%9A%84git%E5%91%BD%E4%BB%A4/" class="article-nav-link">
         <strong class="article-nav-caption">下一篇</strong>
-        <div class="article-nav-title">测试：我的猫和我的爱情</div>
+        <div class="article-nav-title">备忘：有用的git命令</div>
       </a>
     
   </nav>

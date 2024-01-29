@@ -15,9 +15,21 @@
 ]]></content>
   </entry>
   <entry>
+    <title>3年延时记录45种花开瞬间</title>
+    <url>/2024/01/30/3%E5%B9%B4%E5%BB%B6%E6%97%B6%E8%AE%B0%E5%BD%9545%E7%A7%8D%E8%8A%B1%E5%BC%80%E7%9E%AC%E9%97%B4/</url>
+    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/longergre/picgo/img/1706551237808.gif" alt=""></p>
+]]></content>
+      <categories>
+        <category>gif</category>
+      </categories>
+      <tags>
+        <tag>gif</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>五饼护食记</title>
     <url>/2024/01/28/%E4%BA%94%E9%A5%BC%E6%8A%A4%E9%A3%9F%E8%AE%B0/</url>
-    <content><![CDATA[<div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"autoplay":true,"theme":"#FADFA3","loop":true,"video":{"url":"/2024/01/28/五饼护食记/1.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
+    <content><![CDATA[<div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px; width:35%;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"autoplay":true,"theme":"#FADFA3","loop":true,"video":{"url":"/2024/01/28/五饼护食记/1.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
 ]]></content>
       <tags>
         <tag>视频</tag>
@@ -29,16 +41,17 @@
     <url>/2024/01/28/%E5%A4%87%E5%BF%98%EF%BC%9Ahexo-d%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5GitHub%E6%8A%A5%E9%94%99%E4%BF%AE%E5%A4%8D/</url>
     <content><![CDATA[<h1 id="输入密码报错，应使用Personal-access-tokens"><a href="#输入密码报错，应使用Personal-access-tokens" class="headerlink" title="输入密码报错，应使用Personal access tokens"></a>输入密码报错，应使用Personal access tokens</h1><h2 id="一、生成token"><a href="#一、生成token" class="headerlink" title="一、生成token"></a>一、生成token</h2><ol>
 <li><p>登录GitHub，点击网页右上角的头像，再点击Settings</p>
-<p><img src="https://cdn.jsdelivr.net/gh/longergre/picgo/img/屏幕快照 2024-01-28 下午9.51.07.png" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/longergre/picgo/img/屏幕快照 2024-01-28 下午9.51.07.png#pic_left =500x" alt=""></p>
+<span id="more"></span>
 </li>
 <li><p>点击网页左侧底部的Developer settings</p>
-<p><img src="https://cdn.jsdelivr.net/gh/longergre/picgo/img/屏幕快照 2024-01-28 下午9.54.30.png" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/longergre/picgo/img/屏幕快照 2024-01-28 下午9.54.30.png#pic_left =500x" alt=""></p>
 </li>
 <li><p>点击Personal access tokens</p>
-<p><img src="https://cdn.jsdelivr.net/gh/longergre/picgo/img/屏幕快照 2024-01-28 下午9.55.47.png" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/longergre/picgo/img/屏幕快照 2024-01-28 下午9.55.47.png#pic_left =500x" alt=""></p>
 </li>
 <li><p>点击Tokens（classic）</p>
-<p><img src="https://cdn.jsdelivr.net/gh/longergre/picgo/img/屏幕快照 2024-01-28 下午9.56.41.png" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/longergre/picgo/img/屏幕快照 2024-01-28 下午9.56.41.png#pic_left =500x" alt=""></p>
 </li>
 <li><p>点击Generate new token</p>
 <p><img src="https://cdn.jsdelivr.net/gh/longergre/picgo/img/b0b9f559b7844d98912a7d7204160ca2.png" alt=""></p>
@@ -57,18 +70,72 @@
 </li>
 </ol>
 ]]></content>
+      <categories>
+        <category>备忘</category>
+      </categories>
       <tags>
         <tag>备忘</tag>
         <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
+    <title>备忘：有用的git命令</title>
+    <url>/2024/01/29/%E5%A4%87%E5%BF%98%EF%BC%9A%E6%9C%89%E7%94%A8%E7%9A%84git%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h1 id="git基本操作"><a href="#git基本操作" class="headerlink" title="git基本操作"></a>git基本操作</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone 【仓库地址】</span><br></pre></td></tr></table></figure>
+<p>这需要cd到想要保存仓库文件夹的路径再执行，否则需要指定路径。执行之后会在相应路径下建立文件夹，其名称与仓库名称相同，其内容与仓库默认分支相同。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git add .</span><br></pre></td></tr></table></figure>
+<p>添加当前目录下的所有文件到暂存区。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git commit -m &quot;【这里写备注信息，可以留空】&quot;</span><br></pre></td></tr></table></figure>
+<p>提交暂存区到本地仓库中。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git push origin 【分支名】</span><br></pre></td></tr></table></figure>
+<p>推送文件到origin主机的【分支名】分支。其中“origin”是远程主机名，远程主机一般都叫这个名，很少有人去改。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git pull origin 【分支名】</span><br></pre></td></tr></table></figure>
+<p>从远程获取代码并合并本地的版本。</p>
+<span id="more"></span>
+<h1 id="检查远程仓库和分支的连接状态"><a href="#检查远程仓库和分支的连接状态" class="headerlink" title="检查远程仓库和分支的连接状态"></a>检查远程仓库和分支的连接状态</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git remote -v</span><br></pre></td></tr></table></figure>
+<p>测试远程仓库是否连接。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git branch -a</span><br></pre></td></tr></table></figure>
+<p>测试远程仓库的分支。</p>
+<p>这样就是没连接上。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/longergre/picgo/img/d38ebfe4c9a5499786269fee65fed49b.png" alt=""></p>
+<p>这样就是连接上了。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/longergre/picgo/img/8e2ee8c81bf1479380e622df5d37d1e1.png" alt=""></p>
+<h1 id="git-pull-显示已是最新，并未拉取文件"><a href="#git-pull-显示已是最新，并未拉取文件" class="headerlink" title="git pull 显示已是最新，并未拉取文件"></a>git pull 显示已是最新，并未拉取文件</h1><p><img src="https://cdn.jsdelivr.net/gh/longergre/picgo/img/b5e7069f04de43a1b1f81ec0ca2fe1bd.png" alt=""></p>
+<p>在适当路径下依次执行如下命令：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git fetch --all</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git reset --hard origin/【分支名】</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git pull origin 【分支名】</span><br></pre></td></tr></table></figure>
+<h1 id="git-push显示没有权限"><a href="#git-push显示没有权限" class="headerlink" title="git push显示没有权限"></a>git push显示没有权限</h1><h2 id="确认用户信息配置"><a href="#确认用户信息配置" class="headerlink" title="确认用户信息配置"></a>确认用户信息配置</h2><p>在本地系统用户文件夹中查看.gitconfig文件中的内容。如果已经配置成功，该文件内容应包括远程仓库的用户名、邮箱和登录密码。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/longergre/picgo/img/b4f47e87268d4186abf71fbd6cb22f70.png" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/longergre/picgo/img/c40e12b08b73471ba02ff21aaed03718.png" alt=""></p>
+<h2 id="若尚未配置成功，则需在命令行中执行以下命令"><a href="#若尚未配置成功，则需在命令行中执行以下命令" class="headerlink" title="若尚未配置成功，则需在命令行中执行以下命令"></a>若尚未配置成功，则需在命令行中执行以下命令</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;【用户名】&quot;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.email &quot;【邮箱】&quot;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.password &quot;【登录密码】&quot;</span><br></pre></td></tr></table></figure>
+<h2 id="生成SSH公钥和私钥"><a href="#生成SSH公钥和私钥" class="headerlink" title="生成SSH公钥和私钥"></a>生成SSH公钥和私钥</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh-keygen</span><br></pre></td></tr></table></figure>
+<p>在冒号停顿处按回车键。如果以前生成过SSH公钥和私钥，会询问是否覆盖。其后冒号停顿的地方会有三个，一个设定文件名，另两个设定密码。所以一共要按三次回车键，使用默认文件名，不设密码。</p>
+<h2 id="查询公钥文件内容"><a href="#查询公钥文件内容" class="headerlink" title="查询公钥文件内容"></a>查询公钥文件内容</h2><p><img src="https://cdn.jsdelivr.net/gh/longergre/picgo/img/776e37ba36ca4861a9e71b5eeea392cd.png" alt=""></p>
+<p>生成公钥时系统会显示公钥文件的路径，但有时候这个路径无法直接访问，这时可执行</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cat 【路径/id_rsa.pub】</span><br></pre></td></tr></table></figure>
+<p>如果执行ssh-keygen的过程中没有设置文件名的话，公钥的路径就是以/id_rsa.pub结尾的。执行上述cat命令之后，公钥的内容就会显示出来。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/longergre/picgo/img/f434974c56c347b2b456e9919fdbff24.png" alt=""></p>
+<h2 id="复制公钥的内容，登录远程仓库，添加SSH-key"><a href="#复制公钥的内容，登录远程仓库，添加SSH-key" class="headerlink" title="复制公钥的内容，登录远程仓库，添加SSH key"></a>复制公钥的内容，登录远程仓库，添加SSH key</h2><p><img src="https://cdn.jsdelivr.net/gh/longergre/picgo/img/9e783d16c3a2485e8e43c6c48e96f5f9.png" alt=""></p>
+]]></content>
+      <categories>
+        <category>备忘</category>
+      </categories>
+      <tags>
+        <tag>备忘</tag>
+        <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>备忘：dplayer发布视频测试及操作步骤</title>
     <url>/2024/01/28/%E6%B5%8B%E8%AF%95dplayer%E5%8F%91%E5%B8%83%E8%A7%86%E9%A2%91/</url>
-    <content><![CDATA[<div id="dplayer1" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer1"),"autoplay":true,"theme":"#FADFA3","loop":true,"video":{"url":"/2024/01/28/测试dplayer发布视频/1.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
+    <content><![CDATA[<div id="dplayer1" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px; width:35%;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer1"),"autoplay":true,"theme":"#FADFA3","loop":true,"video":{"url":"/2024/01/28/测试dplayer发布视频/1.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
 <h1 id="一、博客中如果要插入本地视频，需要先安装hexo-tag-dplayer，在cmd-终端输入"><a href="#一、博客中如果要插入本地视频，需要先安装hexo-tag-dplayer，在cmd-终端输入" class="headerlink" title="一、博客中如果要插入本地视频，需要先安装hexo-tag-dplayer，在cmd/终端输入"></a>一、博客中如果要插入本地视频，需要先安装hexo-tag-dplayer，在cmd/终端输入</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-tag-dplayer --save</span><br></pre></td></tr></table></figure>
 <p>Mac端可能需要在命令前加“sodu”，以管理员身份运行，回车之后按提示输入登录密码，再回车。</p>
 <p>成功安装后在 博客根目录/node_modules 中会出现dplayer 文件夹。</p>
+<span id="more"></span>
 <h1 id="二、确保hexo的配置文件-config-yml里"><a href="#二、确保hexo的配置文件-config-yml里" class="headerlink" title="二、确保hexo的配置文件_config.yml里"></a>二、确保hexo的配置文件_config.yml里</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">post_asset_folder: true</span><br></pre></td></tr></table></figure>
 <p>这个设置可以在hexo new ‘’新的文章”时在 博客根目录/source/_posts 里面生成同名文件夹，用来存放本地视频文件以及视频封面图片。</p>
 <h1 id="三、把视频文件和作为视频封面的图片文件放到同名文件夹里，然后在文章插入以下语句"><a href="#三、把视频文件和作为视频封面的图片文件放到同名文件夹里，然后在文章插入以下语句" class="headerlink" title="三、把视频文件和作为视频封面的图片文件放到同名文件夹里，然后在文章插入以下语句"></a>三、把视频文件和作为视频封面的图片文件放到同名文件夹里，然后在文章插入以下语句</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% dplayer &quot;url=1.mp4&quot;  &quot;pic=1.png&quot; &quot;loop=yes&quot; &quot;theme=#FADFA3&quot; &quot;autoplay=false&quot; &quot;token=tokendemo&quot; %&#125;</span><br></pre></td></tr></table></figure>
